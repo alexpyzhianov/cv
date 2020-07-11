@@ -1,0 +1,83 @@
+:root {
+    --text: #121212;
+    --bg: #eeeeee;
+    --link: #3273dc;
+}
+
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--link);
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 720px;
+    padding: 32px;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+h3 {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    margin: 0 12px 12px 0;
+    padding: 4px 12px;
+    border-radius: 16px;
+    background-color: var(--bg);
+}
+
+.skills li.secondary {
+    opacity: 0.6;
+}
+
+.links li {
+    margin-bottom: 8px;
+}
+
+p.dates {
+    margin: 0;
+    font-style: italic;
+}
+
+span[role="img"] {
+    font-style: normal;
+}
