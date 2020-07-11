@@ -1,5 +1,6 @@
 :root {
     --text: #121212;
+    --border: #cdcdcd;
     --bg: #eeeeee;
     --link: #3273dc;
 }
@@ -9,7 +10,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 1.5em;
+    line-height: 1.5;
     color: var(--text);
     margin: 0;
     padding: 0;
@@ -24,6 +25,12 @@ main {
     width: 100%;
     max-width: 720px;
     padding: 32px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 0 1rem 0;
 }
 
 h1 {
@@ -41,7 +48,7 @@ h3 {
 }
 
 section {
-    margin-bottom: 32px;
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -62,11 +69,8 @@ li {
     margin: 0 12px 12px 0;
     padding: 4px 12px;
     border-radius: 16px;
-    background-color: var(--bg);
-}
-
-.skills li.secondary {
-    opacity: 0.6;
+    border: 2px solid var(--border);
+    background-color: none;
 }
 
 .links li {
