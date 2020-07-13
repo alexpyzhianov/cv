@@ -1,2 +1,2 @@
 # cv
-A pretty CV with web technologies (HTML+CSS)
+A pretty CV built using basic web technologies (HTML+CSS)
